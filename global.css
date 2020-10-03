@@ -23,9 +23,20 @@ a {
 }
 
 body > header {
+    height:  50px;
     margin-bottom: 20px;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 1px 0px 8px rgb(200, 200, 200); 
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical {
+    flex-direction: column;
 }
 
 header .logo-search form  {

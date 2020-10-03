@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 		<title>Rdio - Luke Chesser</title>
 		<link rel="stylesheet" href="reset.css"/>
 		<link rel="stylesheet" href="global.css"/>
@@ -9,9 +9,8 @@
 	</head>
 	<body>
         
-		<header>
-			
-			<div class="container">
+		<header class="center">
+			<div class="container" >
 				<div class="row justify-content-center">
 				  <div class="col-sm">
 					<div class="logo-search">
@@ -34,10 +33,10 @@
 		</header>
 		
 		
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-md-4 col-xl-2">
-						<aside>
+					<div class="d-none d-lg-block col-12 col-md-4 col-lg-2">
+						<aside >
 							<h3>Browse</h3>
 							<nav class="browse">
 								<ul class="main">
@@ -57,11 +56,11 @@
 						</aside>
 
 					</div>
-					<div class="col-12 col-md-8 col-xl-10">
+					<div class="col-12 col-md-8 col-lg-10 ">
 						<main>
 							<header>
 								<div class="name-photo">
-									<aside>
+									<aside >
 										<img src="img/artist.png" />
 									</aside>
 									<div class="name">
@@ -69,14 +68,14 @@
 										<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 									</div>
 								</div>
-								<div class="stats-links">
+								<div class="stats-links row" style="margin: 0px 10px">
 									<section class="stats">
 										<span>2 Playlists</span>
 										<span>4 Reviews</span>
 										<span>6 Followers</span>
 										<span>13 Following</span>
 									</section>
-									<div class="links">
+									<div class="links" style="margin-left: auto;">
 										<div>
 											<a href="#">Collection</a>
 											<a href="#">History</a>
@@ -84,10 +83,13 @@
 									</div>
 								</div>
 							</header>
-							<h2>Top Album</h2>
-							<div>
-								<a class="station" href="#">Start Station</a>
+							<div class="row" style="margin: 10px 10px" > 
+								<h2>Top album</h2>
+								<div style="margin-left: auto;">
+									<a class="station center" href="#">Start Station</a>
+								</div>
 							</div>
+							<div class="center vertical">
 							<section id="albums">
 								<article>
 									<figure>
@@ -170,6 +172,7 @@
 									<div class="count">13 songs</div>
 								</article>
 							</section>
+						</div>
 						</main>
 
 					</div>
